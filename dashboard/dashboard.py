@@ -10,7 +10,7 @@ day = pd.read_csv("https://raw.githubusercontent.com/Nizarrafi/Bike_analysis/mai
 day.head()
 
 #Menyiapkan data hour
-hour = pd.read_csv("https://raw.githubusercontent.com/nizarafi/Bike_analysis/main/data/hour.csv")
+hour = pd.read_csv("https://raw.githubusercontent.com/Nizarrafi/Bike_analysis/main/data/hour.csv")
 hour.head()
 
 #Mengubah beberapa detail tentang kolom pada day
