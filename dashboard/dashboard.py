@@ -6,12 +6,11 @@ import streamlit as st
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
 #Menyiapkan data day
-day = pd.read_csv("https://raw.githubusercontent.com/Nizarrafi/Bike_analysis/main/data/day.csv
-")
+day = pd.read_csv("https://raw.githubusercontent.com/Nizarrafi/Bike_analysis/main/data/day.csv")
 day.head()
 
 #Menyiapkan data hour
-hour = pd.read_csv("https://raw.githubusercontent.com/nizarafi/Bike_analysis/Data/hour.csv)
+hour = pd.read_csv("https://raw.githubusercontent.com/nizarafi/Bike_analysis/Data/hour.csv")
 hour.head()
 
 #Mengubah beberapa detail tentang kolom pada day
